@@ -1,9 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="id.sch.mlg.smktelkom.learn.ankokotlinandroid.LayoutActivity">
+    tools:context="id.sch.mlg.smktelkom.learn.ankokotlinandroid.LayoutActivity"
+    android:layout_margin="16sp"
+    android:orientation="vertical"
+    >
 
-</android.support.constraint.ConstraintLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ALERT WITH ANKO"
+        android:id="@+id/btn_alert"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TOAST WITH ANKO"
+        android:id="@+id/btn_toast"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Load Web"
+        android:id="@+id/btn_load"
+        />
+</LinearLayout>
